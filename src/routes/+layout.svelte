@@ -6,7 +6,6 @@
 </script>
 
 <svelte:head>
-	<html lang="fr" />
 	<link rel="icon" href={favicon} />
 	<meta name="description" content="Découvrez vos vraies chances de gagner au loto et comparez avec d'autres investissements. Calculez combien vous pourriez gagner en investissant intelligemment." />
 	<meta property="og:title" content="Statistiques Loto - Calculez vos vraies chances" />

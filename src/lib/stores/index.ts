@@ -1,2 +1,2 @@
-export * from './simulation.store';
-export * from './preferences.store';
+export * from './simulation.store.svelte';
+export * from './preferences.store.svelte';

@@ -9,8 +9,8 @@
 
 	let { totalSpent, expectedReturn, comparisonValue }: Props = $props();
 
-	const netLoss = totalSpent - expectedReturn;
-	const difference = comparisonValue ? comparisonValue + netLoss : 0;
+	const netLoss = $derived(totalSpent - expectedReturn);
+	const difference = $derived(comparisonValue ? comparisonValue + netLoss : 0);
 </script>
 
 <div class="bg-white rounded-lg shadow-md overflow-hidden">

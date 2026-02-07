@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { simulationStore } from '$lib/stores/simulation.store';
-	import { preferencesStore } from '$lib/stores/preferences.store';
+	import { simulationStore } from '$lib/stores';
+	import { preferencesStore } from '$lib/stores';
 	import { copy } from '$lib/content/copy';
 	import { formatCurrency, formatProbability } from '$lib/services/investment-calculator';
 
