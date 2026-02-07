@@ -30,3 +30,8 @@ Il peut également choisir d'autres types d'investissements (actions, crypto, ET
 
 Le design doit être simple et épuré, avec une palette de couleurs neutres. Les graphiques doivent être clairs et faciles à comprendre.
 Le design doit être moderne et ludique.
+
+## Deployment
+
+L'application doit être dockerisée. Elle doit également être testée via GitHub Actions, et deployée sur Docker Hub lors d'un merge sur main.
+Un Makefile doit églament être disponible pour pouvoir facilement tester docker build et docker run l'application en local.
